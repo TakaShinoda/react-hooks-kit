@@ -5,6 +5,7 @@ import { UseRef } from './UseRef';
 import { Hello } from './ReactMemo';
 import { UseCallback } from './UseCallback';
 import { UseMemo } from './UseMemo';
+import { UseReducer } from './UseReducer';
 
 export const App = () =>  {
   return (
@@ -15,6 +16,7 @@ export const App = () =>  {
       <Hello />
       <UseCallback />
       <UseMemo />
+      <UseReducer />
     </div>
   );
 }
