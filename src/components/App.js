@@ -6,6 +6,7 @@ import { Hello } from './ReactMemo';
 import { UseCallback } from './UseCallback';
 import { UseMemo } from './UseMemo';
 import { UseReducer } from './UseReducer';
+import { UseContext } from './UseContext';
 
 export const App = () =>  {
   return (
@@ -17,6 +18,7 @@ export const App = () =>  {
       <UseCallback />
       <UseMemo />
       <UseReducer />
+      <UseContext />
     </div>
   );
 }
