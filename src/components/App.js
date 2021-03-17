@@ -7,6 +7,7 @@ import { UseCallback } from './UseCallback';
 import { UseMemo } from './UseMemo';
 import { UseReducer } from './UseReducer';
 import { UseContext } from './UseContext';
+import { CustomHook } from './CustomHook';
 
 export const App = () =>  {
   return (
@@ -19,6 +20,7 @@ export const App = () =>  {
       <UseMemo />
       <UseReducer />
       <UseContext />
+      <CustomHook />
     </div>
   );
 }
